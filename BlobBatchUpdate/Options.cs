@@ -7,7 +7,7 @@ namespace BlobBatchUpdate
 {
     sealed class Options
     {
-        [Option('s', "Stroage", Required = true, HelpText = "Storage account name")]
+        [Option('s', "Storage", Required = true, HelpText = "Storage account name")]
         public string StorageName { get; set; }
 
         [Option('k', "Key", Required = true, HelpText = "Storage account key")]
